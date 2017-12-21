@@ -1,6 +1,6 @@
 
 
-**EXPRESS
+##EXPRESS##
 
 
 $ npm install express --save
@@ -11,7 +11,7 @@ $ npm install express --save
  
  app.all('/secret', function (req, res, next) {
   console.log('Accessing the secret section ...');
-  *next()*; // pass control to the next handler
+  **next()**; // pass control to the next handler
 });
 
 
